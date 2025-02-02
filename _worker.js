@@ -402,7 +402,7 @@ async function sendTelegramMessage(chatId, message) {
 // Function to handle the /start command
 async function handleStartCommand(chatId) {
   const welcomeMessage = `
-🎉 Selamat datang di Incognito Bot! 🎉
+🎉 Selamat datang di DamarVPN Bot! 🎉
 
 💡 Cara Penggunaan:
 1️⃣ Kirimkan Proxy IP:Port dalam format yang benar.
@@ -418,35 +418,35 @@ async function handleStartCommand(chatId) {
 
 📌 Daftar Commands : /info
 
-👨‍💻 Dikembangkan oleh: [Incognito Mode](https://t.me/Inconigt0)
+👨‍💻 Dikembangkan oleh: [Damarjati](https://t.me/Damzz25)
 
-🌐 WEB VPN TUNNEL : [VPN Tunnel CloudFlare](https://inconigto.us.kg)
-📺 CHANNEL : [Inconigto Channel](https://t.me/inconigtostore)
-👥 GROUP : [Incognito Grup](https://t.me/+kz5Z_vC2M84xY2Q1)
+🌐 WEB VPN TUNNEL : [VPN Tunnel CloudFlare](https://damzz25.my.id)
+📺 CHANNEL : [Free Akun Channel](https://t.me/freecfgalloperator)
+👥 GROUP : [SniffID Grup](https://t.me/sniffID)
   `;
   await sendTelegramMessage(chatId, welcomeMessage);
 }
 
 async function handleGetInfo(chatId) {
   const InfoMessage = `
-🎉 Commands di Incognito Bot! 🎉
+🎉 Commands di DamarVPN Bot! 🎉
 
 1️⃣ \`/getrandomip\`
 2️⃣ \`/getrandom <Country>\`
 3️⃣ \`/listwildcard\`
 
-👨‍💻 Dikembangkan oleh: [Incognito Mode](https://t.me/Inconigt0)
+👨‍💻 Dikembangkan oleh: [Damarjati](https://t.me/Damzz25)
 
-🌐 WEB VPN TUNNEL : [VPN Tunnel CloudFlare](https://inconigto.us.kg)
-📺 CHANNEL : [Inconigto Channel](https://t.me/inconigtostore)
-👥 GROUP : [Incognito Grup](https://t.me/+kz5Z_vC2M84xY2Q1)
+🌐 WEB VPN TUNNEL : [VPN Tunnel CloudFlare](https://damzz25.my.id)
+📺 CHANNEL : [Free Akun Channel](https://t.me/freecfgalloperator)
+👥 GROUP : [SniffID Grup](https://t.me/sniffID)
   `;
   await sendTelegramMessage(chatId, InfoMessage);
 }
  
 
 async function handleListWildcard(chatId) {
-  const afrcloud = `inconigto.us.kg`;
+  const afrcloud = `damzz25.my.id`;
   const infoMessage = `
 🎉 List Wildcard VPN Tunnel Incognito Bot! 🎉
 
@@ -461,11 +461,11 @@ async function handleListWildcard(chatId) {
 9️⃣ \`cdn.appsflayer.com.${afrcloud}\`
 🔟 \`support.zoom.us.${afrcloud}\`
 
-👨‍💻 Dikembangkan oleh: [Incognito Mode](https://t.me/Inconigt0)
+👨‍💻 Dikembangkan oleh: [Damarjati](https://t.me/Damzz25)
 
-🌐 WEB VPN TUNNEL : [VPN Tunnel CloudFlare](https://inconigto.us.kg)
-📺 CHANNEL : [Inconigto Channel](https://t.me/inconigtostore)
-👥 GROUP : [Incognito Grup](https://t.me/+kz5Z_vC2M84xY2Q1)
+🌐 WEB VPN TUNNEL : [VPN Tunnel CloudFlare](https://damzz25.my.id)
+📺 CHANNEL : [Free Akun Channel](https://t.me/freecfgalloperator)
+👥 GROUP : [SniffID Grup](https://t.me/sniffID)
 
   `;
   await sendTelegramMessage(chatId, infoMessage);
@@ -583,7 +583,7 @@ async function checkIPPort(ip, port, chatId) {
 📶 Status: ${status}
 ━━━━━━━━━━━━━━━━━━━━━━━
 
-👨‍💻 Dikembangkan oleh : [Incognito Mode](https://t.me/Inconigt0)
+👨‍💻 Dikembangkan oleh: [Damarjati](https://t.me/Damzz25)
     `;
 
     // Kirim hasil cek
@@ -692,7 +692,7 @@ proxies:
       v2ray-http-upgrade-fast-open: false
 \`\`\`
 
-👨‍💻 Dikembangkan oleh : [Incognito Mode](https://t.me/Inconigt0)
+👨‍💻 Dikembangkan oleh: [Damarjati](https://t.me/Damzz25)
   `;
 
   await sendTelegramMessage(chatId, message);
@@ -740,7 +740,7 @@ proxies:
       v2ray-http-upgrade-fast-open: false
 \`\`\`
 
-👨‍💻 Dikembangkan oleh : [Incognito Mode](https://t.me/Inconigt0)
+👨‍💻 Dikembangkan oleh: [Damarjati](https://t.me/Damzz25)
 `;
 
   await sendTelegramMessage(chatId, message);
@@ -930,7 +930,7 @@ proxies:
     
     return `
       <div class="content ${index === 0 ? "active" : ""}">
-        <h2>Inconigto-VPN</h2>
+        <h2>Damar-VPN</h2>
         <hr class="config-divider" />
         <h2>VLESS TROJAN SHADOWSOCKS</h2>
         <h2>CloudFlare</h2>
@@ -988,32 +988,32 @@ proxies:
       <head>
       <meta charset="UTF-8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
-      <title>Inconigto-VPN | VPN Tunnel | CloudFlare</title>
+      <title>Damar-VPN | VPN Tunnel | CloudFlare</title>
       
       <!-- SEO Meta Tags -->
-      <meta name="description" content="Akun Vless Gratis. Inconigto-VPN offers free Vless accounts with Cloudflare and Trojan support. Secure and fast VPN tunnel services.">
-      <meta name="keywords" content="Inconigto-VPN, Free Vless, Vless CF, Trojan CF, Cloudflare, VPN Tunnel, Akun Vless Gratis">
-      <meta name="author" content="Inconigto-VPN">
+      <meta name="description" content="Akun Vless Gratis. Damar-VPN offers free Vless accounts with Cloudflare and Trojan support. Secure and fast VPN tunnel services.">
+      <meta name="keywords" content="Damar-VPN, Free Vless, Vless CF, Trojan CF, Cloudflare, VPN Tunnel, Akun Vless Gratis">
+      <meta name="author" content="Damar-VPN">
       <meta name="robots" content="index, follow"> <!-- Enable search engines to index the page -->
       <meta name="robots" content="noarchive"> <!-- Prevent storing a cached version of the page -->
       <meta name="robots" content="max-snippet:-1, max-image-preview:large, max-video-preview:-1"> <!-- Improve visibility in search snippets -->
       
       <!-- Social Media Meta Tags -->
-      <meta property="og:title" content="Inconigto-VPN | Free Vless & Trojan Accounts">
-      <meta property="og:description" content="Inconigto-VPN provides free Vless accounts and VPN tunnels via Cloudflare. Secure, fast, and easy setup.">
+      <meta property="og:title" content="Damar-VPN | Free Vless & Trojan Accounts">
+      <meta property="og:description" content="Damar-VPN provides free Vless accounts and VPN tunnels via Cloudflare. Secure, fast, and easy setup.">
       <meta property="og:image" content="https://raw.githubusercontent.com/akulelaki696/bg/refs/heads/main/20250106_010158.jpg"> <!-- Image to appear in previews -->
       <meta property="og:url" content="https://vip.rtmq.fun"> <!-- Your website URL -->
       <meta property="og:type" content="website">
-      <meta property="og:site_name" content="Inconigto-VPN">
+      <meta property="og:site_name" content="Damar-VPN">
       <meta property="og:locale" content="en_US"> <!-- Set to your language/locale -->
       
       <!-- Twitter Card Meta Tags -->
       <meta name="twitter:card" content="summary_large_image">
-      <meta name="twitter:title" content="Inconigto-VPN | Free Vless & Trojan Accounts">
-      <meta name="twitter:description" content="Get free Vless accounts and fast VPN services via Cloudflare with Inconigto-VPN. Privacy and security guaranteed.">
+      <meta name="twitter:title" content="Damar-VPN | Free Vless & Trojan Accounts">
+      <meta name="twitter:description" content="Get free Vless accounts and fast VPN services via Cloudflare with Damar-VPN. Privacy and security guaranteed.">
       <meta name="twitter:image" content="https://raw.githubusercontent.com/akulelaki696/bg/refs/heads/main/20250106_010158.jpg"> <!-- Image for Twitter -->
-      <meta name="twitter:site" content="@InconigtoVPN">
-      <meta name="twitter:creator" content="@InconigtoVPN">
+      <meta name="twitter:site" content="@DamarVPN">
+      <meta name="twitter:creator" content="@DamarVPN">
       
       <!-- Telegram Meta Tags -->
       <meta property="og:image:type" content="image/jpeg"> <!-- Specify the image type for Telegram and other platforms -->
