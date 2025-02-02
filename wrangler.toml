@@ -1,14 +1,14 @@
-name = "inconigto"
+name = "damar"
 main = "_worker.js"
 compatibility_date = "2023-05-26"
 # node_compat = true
 workers_dev = true
 routes = [
-  { pattern = "inconigto.us.kg", custom_domain = true },
-  { pattern = "ava.game.naver.com.inconigto.us.kg", custom_domain = true },
-  { pattern = "graph.instagram.com.inconigto.us.kg", custom_domain = true },
-  { pattern = "zaintest.vuclip.com.inconigto.us.kg", custom_domain = true },
-  { pattern = "support.zoom.us.inconigto.us.kg", custom_domain = true },
-  { pattern = "cache.netflix.com.inconigto.us.kg", custom_domain = true }
+  { pattern = "damzz25.my.id", custom_domain = true },
+  { pattern = "ava.game.naver.com.damzz25.my.id", custom_domain = true },
+  { pattern = "graph.instagram.com.damzz25.my.id", custom_domain = true },
+  { pattern = "zaintest.vuclip.com.damzz25.my.id", custom_domain = true },
+  { pattern = "support.zoom.us.damzz25.my.id", custom_domain = true },
+  { pattern = "cache.netflix.com.damzz25.my.id", custom_domain = true }
 ]
 [vars]
