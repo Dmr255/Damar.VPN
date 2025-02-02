@@ -5,12 +5,12 @@ let cachedProxyList = [];
 let proxyIP = "";
 let apiCheck = 'https://ipcf.rmtq.fun/json/?ip=';
 
-const DEFAULT_PROXY_BANK_URL = "https://raw.githubusercontent.com/InconigtoVPN/Inconigto.VPN/refs/heads/main/iplist.txt";
-const TELEGRAM_BOT_TOKEN = '7342234925:AAE4mYTLrv9wsinHiMTIlpJ3MJxVJ9GDTX0';
+const DEFAULT_PROXY_BANK_URL = "https://raw.githubusercontent.com/DamarVPN/Damar.VPN/refs/heads/main/iplist.txt";
+const TELEGRAM_BOT_TOKEN = '7669638239:AAHD1XQ9vqIFcsQDaPn01w-R7l7--6_i0xE';
 const TELEGRAM_API_URL = `https://api.telegram.org/bot${TELEGRAM_BOT_TOKEN}`;
 const APICF = 'https://ipcf.rmtq.fun/json/';
 const FAKE_HOSTNAME = 'inconigto.us.kg';
-const ownerId = 7321724865; // Ganti dengan chat_id pemilik bot (angka tanpa tanda kutip)
+const ownerId = 5869781040; // Ganti dengan chat_id pemilik bot (angka tanpa tanda kutip)
 
 
 
